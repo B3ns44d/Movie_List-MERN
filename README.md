@@ -52,6 +52,9 @@ I am working on developing this site more and more in the future, and these are 
 ![enter image description here](https://media.giphy.com/media/l0MYzEB9J8qPOnER2/giphy.gif)
 ## ❤ Funding 🔝
 **If you want to support me to do more projects and develop myself, I would be grateful to you** 
+
+<br>
+
 <a href="https://ko-fi.com/b3ns44d" target="_blank">
 <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
 </a>
