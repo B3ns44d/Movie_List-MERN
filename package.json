@@ -8,12 +8,16 @@
   },
   "description": "platform (built with ReactJS) that includes a list of all the movies and series that I have watched in my entire life",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "dotenv": "^8.2.0",
+    "material-ui": "^0.20.2",
+    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-flip-move": "^3.0.4",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
