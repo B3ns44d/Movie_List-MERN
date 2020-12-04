@@ -8,7 +8,6 @@ function Movie({ name, type, description, imgUrl, rate, time }) {
       3  ==> Wonderful ==> #ffa534
       4  ==> Not so dusty! ==> #ff4545
     */
-  console.log(time);
   const setVoteClass = (vote) => {
     if (vote === "I LOVE IT") {
       return "iloveit";
@@ -22,7 +21,6 @@ function Movie({ name, type, description, imgUrl, rate, time }) {
       return "notsodusty";
     }
   };
-  console.log(name);
   return (
     <>
     <div className="movie">
