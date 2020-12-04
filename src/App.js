@@ -5,8 +5,12 @@ require("dotenv").config(); // ? <== require the dotenv to use .env
 
 // const getApiToken = require("./components/urltoken"); // ! <== request urltoken from a .env file
 // const BLACKAPI = getApiToken.urltoken.BLACKAPI; // ? <== the data url
-
-console.log(process.env.REACT_APP_BLACKAPI);
+console.log(
+  "%cStop!",
+  "color:red;font-family:system-ui;font-size:4rem;-webkit-text-stroke: 1px black;font-weight:bold"
+);
+console.log(process.env.REACT_APP_ASKYOU);
+// %cBlue!", "color: blue;"
 function App() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
