@@ -5,20 +5,20 @@ export default function Alert() {
     <>
     <div id="container">
       <div id="success-box">
-        <div class="dot"></div>
-        <div class="dot two"></div>
-        <div class="face">
-          <div class="eye"></div>
-          <div class="eye right"></div>
-          <div class="mouth happy"></div>
+        <div className="dot"></div>
+        <div className="dot two"></div>
+        <div className="face">
+          <div className="eye"></div>
+          <div className="eye right"></div>
+          <div className="mouth happy"></div>
         </div>
-        <div class="shadow scale"></div>
-        <div class="message">
-          <h1 class="alert">Success!</h1>
+        <div className="shadow scale"></div>
+        <div className="message">
+          <h1 className="alert">Success!</h1>
           <p>yay, everything is working.</p>
         </div>
-        <button class="button-box">
-          <h1 class="green">continue</h1>
+        <button className="button-box">
+          <h1 className="green">continue</h1>
         </button>
       </div>
     </div>
