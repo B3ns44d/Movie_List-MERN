@@ -7,3 +7,8 @@
   left: 50%;
   margin-left: -150px;
 }
+@media screen and (max-width: 600px) {
+  .loading {
+    align-items: center;
+  }
+}

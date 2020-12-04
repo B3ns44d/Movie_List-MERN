@@ -10,12 +10,12 @@ console.log(process.env.REACT_APP_BLACKAPI);
 function App() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     setLoading(true);
     // const proxyurl = getApiToken.urltoken.PROXYURL; // ? <== This API enables cross-origin requests to anywhere.
-    // proxyurl + BLACKAPI || 
+    // proxyurl + BLACKAPI ||
     fetch(process.env.REACT_APP_PROXYURL + process.env.REACT_APP_BLACKAPI) // ! here i did this bc i need to enable the cross-origin request
       .then((res) => res.json())
       .then((data) => {
@@ -24,19 +24,18 @@ function App() {
       });
   }, []);
 
+  // const handleOnSubmit = (e) => {
+  //   e.preventDefault();
 
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-
-  };
-  const handleOnChange = (e) => {
-    setSearchTerm(e.target.value);
-  };
+  // };
+  // const handleOnChange = (e) => {
+  //   setSearchTerm(e.target.value);
+  // };
   return (
     <>
       <header>
         <h3 className="b3ns44d">B3ns44d</h3>
-        <form onSubmit={handleOnSubmit}>
+        {/* <form onSubmit={handleOnSubmit}>
           <input
             className="search"
             type="search"
@@ -44,7 +43,36 @@ function App() {
             value={searchTerm}
             onChange={handleOnChange}
           />
-        </form>
+        </form> */}
+        {/* alert filed */}
+        <div className="container">
+          <div class="interior">
+            <a class="btn" rel="noreferrer" href="#open-modal">
+              👋 Hello Open me
+            </a>
+          </div>
+        </div>
+        <div id="open-modal" class="modal-window">
+          <div className="text">
+            <a href="/#" title="Close" class="modal-close">
+              Close
+            </a>
+            <h1>Hello I'm B3ns44d</h1>
+            <div>
+            and this website offers all the movies and series that I have watched in my entire life
+            </div>
+            <div>
+              <small>Check out</small>
+            </div>
+            <a className="coffee"
+              target="_blank"
+              rel="noreferrer"
+              href="https://ko-fi.com/b3ns44d"
+            >
+              👉 Buy me a Coffee ☕
+            </a>
+          </div>
+        </div>
       </header>
       <div className="movie-container">
         {!loading ? (

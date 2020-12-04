@@ -10,7 +10,7 @@
 #8EE4AF
 
 */
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 body {
@@ -24,7 +24,14 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* .alert__message {
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+} */
 header {
   overflow: hidden;
   display: flex;
@@ -135,6 +142,84 @@ header {
   color: #ff4545;
 }
 
+
+.container{
+  margin: 10px;
+}
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2em;
+  background: #ffffff;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+small {
+  color: #aaa;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.btn i {
+  padding-right: 0.3em;
+}
+.text{
+  color:black;
+}
+
+a:link {
+  text-decoration: none;
+}
+.coffee{
+  color:#57e32c;
+}
 @media screen and (max-width: 600px) {
   .search {
     margin-left: auto;
@@ -144,5 +229,15 @@ header {
   }
   .b3ns44d {
     display: none;
+  }
+  .modal-window > div {
+    max-width: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #ffffff;
   }
 }
