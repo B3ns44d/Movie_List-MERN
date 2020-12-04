@@ -46,15 +46,15 @@ function App() {
         </form> */}
         {/* alert filed */}
         <div className="container">
-          <div class="interior">
-            <a class="btn" rel="noreferrer" href="#open-modal">
+          <div className="interior">
+            <a className="btn" rel="noreferrer" href="#open-modal">
               👋 Hello Open me
             </a>
           </div>
         </div>
-        <div id="open-modal" class="modal-window">
+        <div id="open-modal" className="modal-window">
           <div className="text">
-            <a href="/#" title="Close" class="modal-close">
+            <a href="/#" title="Close" className="modal-close">
               Close
             </a>
             <h1>Hello I'm B3ns44d</h1>
