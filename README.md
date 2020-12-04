@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Welcome to B3NS44D M/S LIST!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi! This is me **@B3ns44d** and this is my website repo **so** Let me present to you my project 
+<p align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
+</p>
 
-## Available Scripts
+<p align="center">  <img width="460" height="300" src="https://media.giphy.com/media/QvXUg57xakpdZiOJof/giphy.gif">  </p>
 
-In the project directory, you can run:
+# INTRO TO THIS PROJECT
 
-### `yarn start`
+This porject is platform built with _ReactJS_ and _BLACKAPI_ (if you don't what is this BLACKAPI I recommend you to check the [BLACKAPI GitHub repo](https://github.com/B3ns44d/BlackAPI))  so this website includes a list of all the movies and series that I have watched, and I also provided a time tracker for each movie and series and the total time **I wasted watching these movies** ... 
+*This was a simple introduction to this project* 
+<p align="center">  <img width="500" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## TOOLS I USEED FOR THIS PROJECT 
 
-### `yarn test`
+ - **First let's start with the API** that a build using **NODEJS** and **MONGODB** and **EXPRESSJS**  and **AUTH0** so Let's talk about the role of this API in this project, simply this API provides us with
+   all the information that we use on the site such as the name, movies,
+   pictures....., everything is stored in the database that is MONGODB
+   and manged by **EXPRESS** and **NODE**
+   
+ - **Now The ReactJS part**  for this project  I use ReactJS, Material UI, and a few other things to develop the frontend of this website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## WHY I MADE THIS WEBSITE FOR 
 
-### `yarn build`
+There are many reasons that prompted the development of this site, but there are the main reasons that come...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - **Train my skills in MERN STACK**
+ - To stop people from asking about the movies that I watched
+ - And to share my reviews of the movies and series I have watched with people
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## FEATURES COMING 👾
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I am working on developing this site more and more in the future, and these are the features that I am working on currently
 
-### `yarn eject`
+ - The area for people to discuss their opinions about a particular movie or series.
+ - An area for people to share the movies and series they watched and evaluated.
+ - An area for music that I love and listen to every day while I coding. **(in process)**
+ -  more stuff....
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## DEMO
+**You can visit the demo version of this project using this [link](https://b3ns44d-list.herokuapp.com/)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![enter image description here](https://media.giphy.com/media/l0MYzEB9J8qPOnER2/giphy.gif)
+## ❤ Funding 🔝
+**If you want to support me to do more projects and develop myself, I would be grateful to you** 
+<a href="https://ko-fi.com/b3ns44d" target="_blank">
+<img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
+</a>
