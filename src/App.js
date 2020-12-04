@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Movie from "./components/Movie";
 import Loading from "./Loading";
 require("dotenv").config(); // ? <== require the dotenv to use .env
-// const getApiToken = require("./components/urltoken"); // ! <== request urltoken from a .env file
-// const BLACKAPI = getApiToken.urltoken.BLACKAPI; // ? <== the data url
+const getApiToken = require("./components/urltoken"); // ! <== request urltoken from a .env file
+const BLACKAPI = getApiToken.urltoken.BLACKAPI; // ? <== the data url
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -12,14 +12,15 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    // const proxyurl = getApiToken.urltoken.PROXYURL; // ? <== This API enables cross-origin requests to anywhere.
-    fetch(process.env.PROXYURL + process.env.BLACKAPI) // ! here i did this bc i need to enable the cross-origin request
+    const proxyurl = getApiToken.urltoken.PROXYURL; // ? <== This API enables cross-origin requests to anywhere.
+    fetch(proxyurl + BLACKAPI || process.env.PROXYURL + process.env.BLACKAPI) // ! here i did this bc i need to enable the cross-origin request
       .then((res) => res.json())
       .then((data) => {
         setMovies(data.data);
         setLoading(false);
       });
   }, []);
+
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
