@@ -46,6 +46,9 @@ I am working on developing this site more and more in the future, and these are 
 ## DEMO
 **You can visit the demo version of this project using this [link](https://b3ns44d-list.herokuapp.com/)**
 
+**NOTE:** This is only the beta version of the website, it is not the final product and I have some things to add and I have not finished pushing/listing all my movies and series to the API ...
+
+
 ![enter image description here](https://media.giphy.com/media/l0MYzEB9J8qPOnER2/giphy.gif)
 ## ❤ Funding 🔝
 **If you want to support me to do more projects and develop myself, I would be grateful to you** 
