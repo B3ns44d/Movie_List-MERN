@@ -220,6 +220,9 @@ a:link {
 .coffee{
   color:#57e32c;
 }
+.note{
+  color:#57e32c;
+}
 @media screen and (max-width: 600px) {
   .search {
     margin-left: auto;
