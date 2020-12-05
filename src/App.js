@@ -31,6 +31,19 @@ function App() {
   // const handleOnSubmit = (e) => {
   //   e.preventDefault();
 
+  //   if (searchTerm) {
+  //     fetch(
+  //       process.env.REACT_APP_PROXYURL +
+  //         process.env.REACT_APP_BLACKAPI +
+  //         searchTerm
+  //     ) // ! here i did this bc i need to enable the cross-origin request
+  //       .then((res) => res.json())
+  //       .then((data) => {
+  //         setMovies(data.data);
+  //         setLoading(false);
+  //       });
+  //     setSearchTerm("");
+  //   }
   // };
   // const handleOnChange = (e) => {
   //   setSearchTerm(e.target.value);
@@ -63,12 +76,19 @@ function App() {
             </a>
             <h1>Hello I'm B3ns44d</h1>
             <div>
-            and this website offers all the movies and series that I have watched in my entire life
+              and this website shows all the movies and series that I have
+              watched in my entire life.
+              <div>
+                <small className="note">Note:</small> This is just the BETA
+                version. There are still many things to be added and my movies
+                list is still long
+              </div>
             </div>
             <div>
               <small>Check out</small>
             </div>
-            <a className="coffee"
+            <a
+              className="coffee"
               target="_blank"
               rel="noreferrer"
               href="https://ko-fi.com/b3ns44d"
