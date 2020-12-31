@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 body {
-  background-color: #22254b;
+  background-color: #020d18;
   color: white;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -37,7 +37,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #373b69;
+  background-color: #0f2133;
   padding: 1rem;
 }
 
@@ -68,7 +68,7 @@ header {
 }
 
 .movie {
-  background-color: #373b69;
+  background-color: #0f2133;
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -116,7 +116,7 @@ header {
 }
 
 .tag {
-  background-color: #22254b;
+  background-color: #1d3d5d;
   border-radius: 5px;
   font-weight: bold;
   padding: 0.5rem;
